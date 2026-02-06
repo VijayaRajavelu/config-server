@@ -1,3 +1,4 @@
+Spring Cloud Config Server with GitHub Integration. 
 This is a Spring Boot microservice that manages CRUD operations for products and loads configuration dynamically from a Spring Cloud Config Server backed by a GitHub repository.
 
 Architecture:
