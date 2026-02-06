@@ -1,9 +1,5 @@
 This is a Spring Boot microservice that manages CRUD operations for products and loads configuration dynamically from a Spring Cloud Config Server backed by a GitHub repository.
 
-GitHub Links:
-Config Server: https://github.com/VijayaRajavelu/config-server
-Config Repository: https://github.com/VijayaRajavelu/config
-
 Architecture:
 Product CRUD Service – handles product creation, retrieval, update, and deletion
 Config Server – provides centralized configuration from GitHub
@@ -21,9 +17,13 @@ product_crud-dev.yml
 product_crud-test.yml
 product_crud-prod.yml
 
+GitHub Links:
+Config Server: https://github.com/VijayaRajavelu/config-server
+Config Repository: https://github.com/VijayaRajavelu/config
+
 Run Locally
 1. Clone repository:
-git clone https://github.com/VijayaRajavelu/product-crud.git
+git clone https://github.com/VijayaRajavelu/config-server.git
 cd product-crud
 
 2. Ensure Config Server is running:
